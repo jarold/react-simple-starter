@@ -1,3 +1,3 @@
-# simple-react-template
+# react-simple-starter
 
 React, Webpack, Babel
