@@ -35,9 +35,11 @@ module.exports = {
     historyApiFallback: true
   },
   plugins: [
+    new webpack.LoaderOptionsPlugin({
+      minimize: true
+    }),
     new HtmlWebpackPlugin({
       template: 'src/index.html'
-    }),
-    new webpack.optimize.UglifyJsPlugin()
+    })
   ]
 };
